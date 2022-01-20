@@ -77,6 +77,19 @@ body {
     fill: currentColor;
 }
 
+/* CARD HOVER EFFECT */
+
+.card {
+  transition: transform 0.2s ease;
+  box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 1.5em;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+
 /* OLD CSS */
 
 /* .banner-image
@@ -99,20 +112,23 @@ background-size: cover;
  width: 50%;
  text-align:center;
 }
+
+*/
 footer
 {
 padding: 10px 0;
 background-color: #101010;
-color:#9d9d9d;
+color:#ffffff;
 bottom: 0;
 width: 100%; 
 }
+/*
 .container{
   width:90%;
  margin:auto;
  overflow:hidden;
-
 }
+
 
 .bd-placeholder-img {
   font-size: 1.125rem;

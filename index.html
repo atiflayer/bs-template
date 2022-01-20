@@ -29,6 +29,9 @@
     integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
     crossorigin="anonymous"></script>
 
+  <!-- MDB -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"></script>
+
   <!-- <link rel="stylesheet" href="assets/css/style.css" /> -->
   <link rel="stylesheet" href="assets/css/starter.css">
 
@@ -157,36 +160,35 @@
 
   <div class="container-fluid">
     <nav class="py-0 bg-light border-bottom">
-      <div class="container d-flex flex-wrap">
+      <div class="container d-flex flex-wrap flex-row">
         <ul class="nav me-auto">
-          <svg class="bi me-2" width="20" height="30">
-            <use xlink:href="#bootstrap" />
+          <svg class="bi mt-0 ms-auto pt-2" width="20" height="30">
+            <use xlink:href="#bootstrap"/>
           </svg>
-          <li class="nav-item"><a href="#" class="nav-link link-dark px-2" aria-current="page">+8801684639019</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-dark text-muted px-3 fw-bold text-decoration-none" aria-current="page">+8801684639019</a></li>
         </ul>
         <ul class="nav">
-          <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Blog</a></li>
-          <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Showroom Locator</a></li>
-          <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Help</a></li>
-          <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Login</a></li>
-          <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Sign up</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-muted px-3 text-decoration-none">Blog</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-muted px-3 text-decoration-none">Help</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-muted px-3 text-decoration-none">Login</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-muted px-3 text-decoration-none">Showroom Locator</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-muted px-3 text-decoration-none">Sign up</a></li>
         </ul>
       </div>
     </nav>
   </div>
 
 
-  <header class="py-3 mb-0 border-bottom">
+  <header class="py-4 mb-0 border-bottom">
     <div class="container d-flex flex-wrap justify-content-center">
-      <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
+      <a href="/" class="d-flex flex-row-reverse align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
         <!-- <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg> -->
         <img src="assets/images/nadia/Nadia Logo web.png" width="50%" height="100%" role="img"
           aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-
         <span class="fs-4"></span>
       </a>
-      <form class="col-12 col-lg-auto mb-3 mb-lg-0 d-flex">
-        <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+      <form class="col-12 col-lg-auto mb-3 mb-lg-0 d-flex flex-row d-grid gap-3">
+        <input type="search" class="form-control" placeholder="I am shopping for..." aria-label="Search">
         <button class="btn btn-outline-primary" type="submit">Search</button>
       </form>
     </div>
@@ -194,7 +196,7 @@
   </header>
 
   <main>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light fixed bg-body shadow-lg p-1 mb-0 bg-body">
+    <nav class="navbar navbar-brand sticky-top navbar-expand-lg navbar-light fixed shadow-lg pb-1 mb-0 mt-0 bg-body ">
       <div class="container">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
           aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -202,58 +204,64 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-3 mb-md-0">
+          <ul class="navbar-nav me-auto ms-auto mb-md-0 fw-bold fs-6 ">
             <li class="nav-item">
-              <a class="nav-link" href="#"> New Arrivals </a>
+              <a class="nav-link" href="#"><img src="assets/images/nadia/Nadia Logo web.png" width="100" height="30" role="img"></a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link" href="#" data-bs-toggle="dropdown"> Living </a>
+            <li class="nav-item px-4 ">
+              <a class="nav-link" href="#">NEW ARRIVALS</a>
+            </li>
+            <li class="nav-item px-4 dropdown">
+              <a class="nav-link" href="#" data-bs-toggle="dropdown">PRODUCTS</a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Sofa</a></li>
                 <li><a class="dropdown-item" href="#">Center table</a></li>
                 <li><a class="dropdown-item" href="#">TV Cabinet</a></li>
                 <li><a class="dropdown-item" href="#">Open Shelves</a></li>
                 <li><a class="dropdown-item" href="#">Shoerack</a></li>
-                <li><a class="dropdown-item" href="#">Lobby</a></li>
               </ul>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link" href="#" data-bs-toggle="dropdown"> Bedroom </a>
+            <li class="nav-item px-4 dropdown">
+              <a class="nav-link" href="#" data-bs-toggle="dropdown">INNOVATIONS</a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Bed</a></li>
                 <li><a class="dropdown-item" href="#">Wardrobe</a></li>
                 <li><a class="dropdown-item" href="#">Chest of Drawers</a></li>
                 <li><a class="dropdown-item" href="#">Mattress</a></li>
                 <li><a class="dropdown-item" href="#">Bedside Table</a></li>
-                <li><a class="dropdown-item" href="#">Reading Table</a></li>
               </ul>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link" href="#" data-bs-toggle="dropdown"> Dining </a>
+            <li class="nav-item px-4 dropdown">
+              <a class="nav-link" href="#" data-bs-toggle="dropdown">BUY BY ROOM</a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Dining</a></li>
                 <li><a class="dropdown-item" href="#">Chair</a></li>
                 <li><a class="dropdown-item" href="#">Dinner Wagon</a></li>
                 <li><a class="dropdown-item" href="#">Mini Cabinet</a></li>
+                <li><a class="dropdown-item" href="#">Reading Table</a></li>
               </ul>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link" href="#" data-bs-toggle="dropdown"> Kitchen </a>
+            <li class="nav-item px-4 dropdown">
+              <a class="nav-link" href="#" data-bs-toggle="dropdown">IDEAS</a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
-                <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
-                <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+                <li><a class="dropdown-item" href="#">Solid Wooden Door</a></li>
+                <li><a class="dropdown-item" href="#">Interior Projects</a></li>
+                <li><a class="dropdown-item" href="#">Tables</a></li>
+                <li><a class="dropdown-item" href="#">Lobby</a></li>
+                <li><a class="dropdown-item" href="#">Chairs</a></li>
               </ul>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link" href="#" data-bs-toggle="dropdown"> Kid's Room </a>
+            <li class="nav-item px-4 dropdown">
+              <a class="nav-link" href="#" data-bs-toggle="dropdown">COLLECTIONS</a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
-                <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
-                <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+                <li><a class="dropdown-item" href="#">Office Collections</a></li>
+                <li><a class="dropdown-item" href="#">Workstation</a></li>
+                <li><a class="dropdown-item" href="#">Storage Rack</a></li>
+                <li><a class="dropdown-item" href="#">Fixed Chair</a></li>
+                <li><a class="dropdown-item" href="#">Office Almirah</a></li>
               </ul>
             </li>
-            <li class="nav-item dropdown">
+            <!-- <li class="nav-item dropdown">
               <a class="nav-link" href="#" data-bs-toggle="dropdown"> Smart Fit </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
@@ -278,7 +286,7 @@
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link" href="#" data-bs-toggle="dropdown"> Interior </a>
+              <a class="nav-link" href="#" data-bs-toggle="dropdown"></a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
                 <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
@@ -286,13 +294,13 @@
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link" href="#" data-bs-toggle="dropdown"> Office </a>
+              <a class="nav-link" href="#" data-bs-toggle="dropdown"></a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
                 <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
                 <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
               </ul>
-            </li>
+            </li> -->
           </ul>
           <form class="d-flex">
             <!-- <input class="form-control me-0" type="search" placeholder="Search" aria-label="Search"> -->
@@ -305,8 +313,7 @@
 
     <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
-          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" aria-label="Slide 1" class="active" aria-current="true" ></button>
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
@@ -342,11 +349,11 @@
           <img src="/assets/images/nadia/slide4-1920x600.png" width="100%" height="100%" role="img"
             aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
           <rect width="100%" height="100%" fill="#55595c" />
-          <!-- <div class="container"> -->
-          <!--              <div class="carousel-caption text-center">
-                 <h1>Get yours now!.</h1> 
-                 <p>All kinds of interior products.</p> 
-                 <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>    
+           <div class="container"> 
+                <div class="ps-5 d-flex flex-row carousel-caption text-left">
+                 <!-- <h1>Get yours now!.</h1>  -->
+                 <!-- <p>All kinds of interior products.</p>  -->
+                 <p><a class="btn btn-lg btn-light" href="#">BROWSE GALLERY</a></p>    
               </div>
             </div>  
          </div> -->
@@ -513,9 +520,9 @@
 
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div class="col">
-              <div class="card shadow-sm">
+              <div class="card bg-image hover-zoom shadow-sm">
                 <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
-                <img src="/assets/images/sofa-set.jpg" width="100%" height="225" role="img"
+                <img class="w-100" src="/assets/images/sofa-set.jpg" width="100%" height="225" role="img"
                   aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
                 <rect width="100%" height="100%" fill="#55595c" />
                 <div class="card-body">
@@ -625,7 +632,6 @@
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
@@ -743,9 +749,8 @@
           </div>
         </div>
       </div>
-
-      <div class="container">
-        <footer class="row row-cols-7 py-5 my-5 border-top text-light bg-dark">
+      <div class="container-fluid ps-auto pe-auto ms-auto bg-dark">
+        <footer class="row row-cols-4 py-5 my-0 ms-auto me-auto border-bottom text-light bg-dark">
           <div class="col">
             <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
               <!-- <svg class="bi me-2" width="40" height="32"> -->
@@ -753,15 +758,15 @@
               </svg>
             </a>
             <p class="text-start">ABOUT NADIA</p>
-            <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quibusdam delectus officiis molestias eveniet nisi.</p>
+            <p class="text-start">Since 1991, Nadia Furniture Ltd. gradually emerged as a promising name in the arena of furniture manufacturing industry of Bangladesh. Here at Nadia we believe in maintaining quality and elevated standards of service to reach out to both domestic and global customers.<br><br>62 East Hazipara, DIT Road, Malibagh, Dhaka -1219.</p>
             <ul class="list-unstyled d-flex">
-              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+              <li class="ms-3"><a class="link-light" href="#"><svg class="bi" width="24" height="24">
                     <use xlink:href="#twitter" />
                   </svg></a></li>
-              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+              <li class="ms-3"><a class="link-light" href="#"><svg class="bi" width="24" height="24">
                     <use xlink:href="#instagram" />
                   </svg></a></li>
-              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+              <li class="ms-3"><a class="link-light" href="#"><svg class="bi" width="24" height="24">
                     <use xlink:href="#facebook" />
                   </svg></a></li>
             </ul>
@@ -769,54 +774,50 @@
 
           <div class="col">
             <h6>The Company</h6>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About Us</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Our Team</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact Us</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Downloads</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Client in News</a></li>
+            <ul class="nav flex-column text">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About Us</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Our Team</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Contact Us</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Downloads</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Client in News</a></li>
             </ul>
           </div>
 
           <div class="col">
             <h6>More Info</h6>
             <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQ</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Our Franchise</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Client Policies</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Career</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">FAQ</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Our Franchise</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Client Policies</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Career</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About</a></li>
             </ul>
           </div>
           <div class="col">
-            <h6>Contact Info</h6>
+            <h6>Download</h6>
             <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Address:</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact:</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Email:</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Tel:</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Phone:</a></li>
+              <img src="assets/images/footer/playstore.png" width="50%" height="70%" role="img"
+              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
             </ul>
           </div>
         </footer>
+        <footer class="text-light bg-dark py-4">
+          <div class="container">
+            <p class="text-center">
+            WE DELIVER IN <br>
+            Bangladesh: Dhaka City, Dhaka Division, Mymensingh Division, Chittagong City, Chittagong Division, Rajshahi
+            Division, Rangpur Division, Khulna Division, Sylhet Division, Barisal Division.
+            Overseas: Please contact your respective showroom
+            </p>
+          </div>
+        </footer>
       </div>
-    </div>
-    <footer class="">
-      <div class="container">
-        <p style="text-align: left;">
-          WE DELIVER IN <br>
-          Bangladesh: Dhaka City, Dhaka Division, Mymensingh Division, Chittagong City, Chittagong Division, Rajshahi
-          Division, Rangpur Division, Khulna Division, Sylhet Division, Barisal Division.
-          Overseas: Please contact your respective showroom
-        </p>
-      </div>
-    </footer>
 
-
-    <div class="container">
-      <footer class="py-0 ">
-        <div class="row tex">
+      <footer class="my-0 py-0 pt-0 pb-0 text-light bg-dark ">
+        <div class="row">
           <div class="text-center justify-content-between py-4 my-4 border-top">
+            <img src="assets/images/footer/SSL_Commerz_Pay_Withes (1).png" width="50%" height="70%" role="img"
+            aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
             <p>&copy; 2021 Company, Inc. All rights reserved.</p>
             <!-- <ul class="list-unstyled d-flex">
               <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
@@ -832,6 +833,7 @@
           </div>
         </div>
       </footer>
+    </div>
   </main>
 
   <script src="/docs/5.1/dist/js/bootstrap.bundle.min.js"
